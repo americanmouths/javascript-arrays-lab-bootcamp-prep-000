@@ -7,5 +7,5 @@ var kittens = [
 ]
 
 function dustructivelyAppendKitten(kittens) {
-  return push("Milo")
+  return kittens.push("Ralph")
 }

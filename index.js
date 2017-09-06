@@ -7,6 +7,11 @@ var kittens = [
 ]
 
 function destructivelyAppendKitten(kittens) {
-  kittens.push("Ralph")
+  kittens.push("Ralph");
+  return kittens
+}
+
+function destructivelyAppendKitten(kittens) {
+  kittens.unshift("Bob");
   return kittens
 }

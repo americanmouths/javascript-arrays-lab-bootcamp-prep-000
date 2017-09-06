@@ -9,4 +9,3 @@ var kittens = [
 function destructivelyAppendKitten(name) {
   return kittens.unshift("Ralph");
 }
-

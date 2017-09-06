@@ -11,7 +11,6 @@ function destructivelyAppendKitten(kittens) {
   return kittens
 }
 
-function destructivelyAppendKitten(kittens) {
-  kittens.unshift("Bob");
-  return kittens
+function destructivelyAppendKitten(name) {
+  return kittens.unshift("Bob");
 }

@@ -1,5 +1,11 @@
 const app = "I don't do much."
 
-function dustructivelyAppendKitten(name) {
-  return push(name)
+var kittens [
+  "Milo",
+  "Otis",
+  "Garfield"
+]
+
+function dustructivelyAppendKitten(kittens) {
+  return push("Milo")
 }
